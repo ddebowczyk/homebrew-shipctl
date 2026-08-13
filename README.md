@@ -5,6 +5,7 @@ the macOS app and exposes its bundled small `shipctl` command.
 
 ```bash
 brew tap ddebowczyk/shipctl
+brew trust ddebowczyk/shipctl
 brew install --cask shipctl
 shipctl version
 ```
