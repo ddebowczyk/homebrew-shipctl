@@ -10,9 +10,10 @@ brew install --cask shipctl
 shipctl version
 ```
 
-This initial private release is unsigned. On first launch, macOS will block the
-app. Open System Settings > Privacy & Security, then select Open Anyway for
-Shipctl. Later updates use normal Homebrew cask upgrades:
+This initial private release is ad-hoc signed but not notarized. On first
+launch, macOS will block the app. Open System Settings > Privacy & Security,
+then select Open Anyway for Shipctl. Later updates use normal Homebrew cask
+upgrades:
 
 ```bash
 brew upgrade --cask shipctl
