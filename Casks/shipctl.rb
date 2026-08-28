@@ -1,6 +1,6 @@
 cask "shipctl" do
-  version "0.9.4"
-  sha256 "413841e459de2e573d89e21f8fd80b63f7489cf70add0709702dab4aa33e42bc"
+  version "0.9.5"
+  sha256 "13f975f3565996acfe6dc5b2d8c8f1f56307d580e0895e2f4210301597b39534"
 
   url "https://github.com/ddebowczyk/shipctl/releases/download/v#{version}/shipctl_#{version}_aarch64.dmg"
   name "Shipctl"
