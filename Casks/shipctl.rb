@@ -23,8 +23,8 @@ cask "shipctl" do
   # formula-installed tools get for free: their curl download never carries it.
   # `xattr -dr` exits 0 when the attribute is absent, so this is safe to run
   # unconditionally.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/shipctl.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/shipctl.app"]
   end
 end
